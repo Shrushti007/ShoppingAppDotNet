@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp", "ShoppingApp\ShoppingApp.csproj", "{D490D01C-8951-419E-8AC2-4A0CA630D968}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27C7C2E3-022A-47D2-8409-65B80D647466} = {27C7C2E3-022A-47D2-8409-65B80D647466}
+		{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1} = {69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingDbLibrary", "ShoppingDbLibrary\ShoppingDbLibrary.csproj", "{F9E4B555-39A6-47D6-8D0C-008810A5723E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1} = {69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBusinessLogicLibrary", "ShoppingBusinessLogicLibrary\ShoppingBusinessLogicLibrary.csproj", "{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLibrary", "CustomerDbHelper\HelperLibrary.csproj", "{27C7C2E3-022A-47D2-8409-65B80D647466}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9E4B555-39A6-47D6-8D0C-008810A5723E} = {F9E4B555-39A6-47D6-8D0C-008810A5723E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D490D01C-8951-419E-8AC2-4A0CA630D968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D490D01C-8951-419E-8AC2-4A0CA630D968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D490D01C-8951-419E-8AC2-4A0CA630D968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D490D01C-8951-419E-8AC2-4A0CA630D968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E4B555-39A6-47D6-8D0C-008810A5723E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E4B555-39A6-47D6-8D0C-008810A5723E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E4B555-39A6-47D6-8D0C-008810A5723E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E4B555-39A6-47D6-8D0C-008810A5723E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69188B02-724E-4E91-8C8E-D3FCBD7E5CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C7C2E3-022A-47D2-8409-65B80D647466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C7C2E3-022A-47D2-8409-65B80D647466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C7C2E3-022A-47D2-8409-65B80D647466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C7C2E3-022A-47D2-8409-65B80D647466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C8C1BE-D4AD-4868-93E9-42007BCC0BF8}
+	EndGlobalSection
+EndGlobal
